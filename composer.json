@@ -1,0 +1,44 @@
+{
+    "name": "omnilab/itis",
+    "type": "library",
+    "description": "Omnilab ITIS: a taxon of the Integrated Taxonomic Information System by its TSN or its name - authority, rank, usage and why, accepted name, hierarchy, common names, geographic divisions, jurisdictional origins, credibility rating; parent, accepted name, synonyms and children related - and a search of scientific and common names, through the ITIS JSON web service, no key needed.",
+    "keywords": [
+        "science",
+        "biodiversity",
+        "taxonomy",
+        "itis",
+        "tsn",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Itis\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Itis\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "itiswebservice-jsonservice-getanymatchcount-srchkey-delphinus-2986368e.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getAnyMatchCount?srchKey=Delphinus",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullhierarchyfromtsn-tsn-180437-d0ce4c00.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullHierarchyFromTSN?tsn=180437",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullhierarchyfromtsn-tsn-180438-45642a97.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullHierarchyFromTSN?tsn=180438",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullhierarchyfromtsn-tsn-555654-3df769d2.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullHierarchyFromTSN?tsn=555654",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullrecordfromtsn-tsn-180437-a16135fc.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullRecordFromTSN?tsn=180437",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullrecordfromtsn-tsn-180438-d79fcb2e.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullRecordFromTSN?tsn=180438",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullrecordfromtsn-tsn-555654-d7a07389.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullRecordFromTSN?tsn=555654",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-getfullrecordfromtsn-tsn-999999999-3b662c5e.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getFullRecordFromTSN?tsn=999999999",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-searchbyscientificname-srchkey-delphinus-de-5a0cdc32.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/searchByScientificName?srchKey=Delphinus delphis",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-searchbyscientificname-srchkey-nothingus-no-cbf94c34.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/searchByScientificName?srchKey=Nothingus nowhereus",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-searchforanymatchpaged-srchkey-delphinus-pa-15bb3a6a.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/searchForAnyMatchPaged?srchKey=Delphinus&pageSize=5&pageNum=1&ascend=true",
+        "status": 200
+    },
+    "itiswebservice-jsonservice-searchforanymatchpaged-srchkey-delphinus-pa-ea0c9118.json": {
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/searchForAnyMatchPaged?srchKey=Delphinus&pageSize=5&pageNum=2&ascend=true",
+        "status": 200
+    }
+}
