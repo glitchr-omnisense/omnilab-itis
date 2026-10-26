@@ -1,7 +1,7 @@
 # omnilab/itis
 
 ITIS, the Integrated Taxonomic Information System, for
-[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a taxon by its TSN or its exact
+[omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a taxon by its TSN or its exact
 scientific name - its authority, rank, usage (valid, invalid, accepted, not accepted) and why, its
 accepted name, its hierarchy, its common names, its geographic divisions and jurisdictional
 origins, ITIS's credibility rating; its parent, accepted name, synonyms and children as related
