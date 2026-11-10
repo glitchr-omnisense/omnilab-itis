@@ -38,6 +38,11 @@
             "Omnilab\\Itis\\Tests\\": "Tests/"
         }
     },
+    "extra": {
+        "omnisense": {
+            "policy": "policy.json"
+        }
+    },
     "config": {
         "sort-packages": true
     }

@@ -44,6 +44,17 @@ key and publishes no rate; for the whole database ITIS offers downloads rather t
 
 See [docs/](docs/index.md) for what is read, how it maps, and what ITIS does not give here.
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://www.itis.gov/ws_description.html on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: CC0-1.0; commercial use: allowed.
+- Credit: not required: Retrieved [month, day, year], from the Integrated Taxonomic Information System (ITIS) on-line database, www.itis.gov, CC0 https://doi.org/10.5066/F7KH0KBK (https://www.itis.gov/citation.html).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or
