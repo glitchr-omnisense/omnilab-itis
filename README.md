@@ -33,6 +33,34 @@ ITIS gives no other base's id. The way to it is WoRMS (`omnilab/worms` carries t
 marine taxon), the Catalogue of Life (`omnilab/col` carries the TSN of a taxon it took from ITIS)
 and Wikidata (P815): the `Collector` follows the `itis` identifier they give.
 
+## Install and a first call
+
+```sh
+composer require omnilab/itis
+```
+
+A real call, with no account and no key: the common dolphin in ITIS. `mailto` is your address, sent
+in the User-Agent so that the service can reach you before it blocks a caller; the source keeps to
+the limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Itis\ItisSourceFactory;
+
+$itis = (new ItisSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$dolphin = $itis->entity('180438');
+echo $dolphin->label, ': ', $dolphin->value('taxonomic_status'), "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+Delphinus delphis: valid
+```
+
 ## Terms of use
 
 ITIS's data are in the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/));
